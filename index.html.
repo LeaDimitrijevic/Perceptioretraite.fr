@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perception Retraite</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Perception Retraite</h1>
+            <p>Votre accompagnement personnalisé vers la retraite.</p>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="#services">Nos Services</a>
+            <a href="#about">À propos</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <main>
+        <section id="services" class="section services">
+            <div class="container">
+                <h2>Nos Services</h2>
+                <div class="service-cards">
+                    <div class="card">
+                        <h3>Audit Retraite</h3>
+                        <p>Analyse complète de votre situation pour optimiser vos droits.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Dossier de Retraite</h3>
+                        <p>Assistance dans la préparation et le dépôt de votre dossier.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Simulations</h3>
+                        <p>Estimez votre future pension avec nos outils experts.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section about">
+            <div class="container">
+                <h2>À propos de nous</h2>
+                <p>Chez Perception Retraite, nous vous accompagnons à chaque étape pour une transition sereine et optimale vers la retraite. Notre expertise est à votre service pour vous offrir un accompagnement personnalisé.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <div class="container">
+                <h2>Contactez-nous</h2>
+                <p>Vous avez des questions ? Besoin d’un accompagnement ? Écrivez-nous !</p>
+                <form action="#">
+                    <input type="text" name="name" placeholder="Votre nom" required>
+                    <input type="email" name="email" placeholder="Votre email" required>
+                    <textarea name="message" placeholder="Votre message" rows="5" required></textarea>
+                    <button type="submit">Envoyer</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Perception Retraite. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+</html>
